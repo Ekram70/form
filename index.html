@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <form>
+        <h2>registration form</h2>
+        <h3>Personal Info</h3>
+        <label class="personal" for="name">Name:</label>
+        <input class="pinput" type="text" id="name" /><br />
+        <label class="personal" for="street">Street Address:</label>
+        <input class="pinput" type="text" id="street" /><br />
+        <label class="personal" for="city">City:</label>
+        <input class="pinput" type="text" id="city" /><br />
+        <label class="personal" for="state">State:</label>
+        <input class="pinput" type="text" id="state" /><br />
+        <label class="personal" for="zip">Zip Code:</label>
+        <select id="zip" class="pinput">
+          <option>Dhaka</option>
+          <option>Chittagong</option>
+          <option>Khulna</option>
+          <option>Sylhet</option>
+          <option>Rajshahi</option>
+        </select>
+        <br /><br />
+        <h3 class="skill">Languages I know</h3>
+        <div class="group">
+          <input class="boxes" type="checkbox" id="html" />
+          <label for="html">HTML</label><br />
+          <input class="boxes" type="checkbox" id="css" />
+          <label for="css">CSS</label><br />
+          <input class="boxes" type="checkbox" id="bootstrap" />
+          <label for="bootstrap">Bootstrap</label><br />
+          <input class="boxes" type="checkbox" id="javascript" />
+          <label for="javascript">JavaScript</label>
+        </div>
+        <div class="group">
+          <input class="boxes" type="checkbox" id="jquery" />
+          <label for="jquery">Jquery</label><br />
+          <input class="boxes" type="checkbox" id="php" />
+          <label for="php">PHP</label><br />
+          <input class="boxes" type="checkbox" id="mysql" />
+          <label for="mysql">MySql</label><br />
+          <input class="boxes" type="checkbox" id="wordpress" />
+          <label for="wordpress">Wordpress</label>
+        </div>
+        <br />
+        <br />
+        <div class="buttons">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
